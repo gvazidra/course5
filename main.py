@@ -12,7 +12,7 @@ from service import (
 )
 
 
-def main_menu(db_path: str = "company.db", company_id: int = 1) -> None:
+def main_menu(db_path: str = "company.db", company_id: int = 2) -> None:
     conn = connect_db(db_path)
 
     while True:
